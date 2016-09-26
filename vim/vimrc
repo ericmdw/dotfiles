@@ -4,3 +4,6 @@ call pathogen#helptags()
 filetype plugin indent on
 syntax on
 
+" Gundo plugin configuration
+nnoremap <F5> :GundoToggle<CR>
+
