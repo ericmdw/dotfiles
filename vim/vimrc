@@ -7,3 +7,6 @@ syntax on
 " Gundo plugin configuration
 nnoremap <F5> :GundoToggle<CR>
 
+" ctrlp - ignore undesirable files
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*.tar.gz,*.tgz,*.tar,*.gzip,*.jar
+
