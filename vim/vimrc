@@ -7,6 +7,20 @@ syntax on
 " Gundo plugin configuration
 nnoremap <F5> :GundoToggle<CR>
 
+" general preferences
+set relativenumber
+set ruler
+
+" turn on mouse support
+set mouse=a
+
+" manage terminal title
+" (adapted from http://stackoverflow.com/questions/1673649/vimrc-action-onclose )
+set title
+let &titleold=substitute(getcwd(), $HOME, "~", "")
+
 " ctrlp - ignore undesirable files
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*.tar.gz,*.tgz,*.tar,*.gzip,*.jar
 
+" prevent 1 second delay when doing something like <Esc>O
+set ttimeoutlen=50
