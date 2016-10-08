@@ -24,3 +24,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*.tar.gz,*.tgz,*.tar,*.gzip,*.j
 
 " prevent 1 second delay when doing something like <Esc>O
 set ttimeoutlen=50
+
+" setup solarized theme for vim
+set background=dark
+colorscheme solarized
